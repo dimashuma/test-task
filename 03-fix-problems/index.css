@@ -1,0 +1,46 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    margin: 0.0000001em;
+    text-align: center;
+    font-family: sans-serif,serif;
+    background: cornsilk;
+    max-width: 680px;
+    margin: 0 auto;
+}
+main {
+    text-align: center;
+}
+
+.article__heading {
+    background: red;
+}
+
+.article__lead {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: serif;
+    color: blueviolet;
+    margin: 50px;
+}
+
+html:not(div) > head ~ body > * > * > figure > img {
+    position: relative;
+    left: 0px;
+    height: auto;
+    margin-bottom: 8px;
+    max-width: 70%;
+    font-family: sans-serif;
+}
+
+.figure__caption {
+    color: red;
+}
+
+
+
+
+
